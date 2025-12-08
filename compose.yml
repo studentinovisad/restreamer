@@ -170,7 +170,7 @@ services:
 
   # StreamEcho
   streamecho:
-    image: ghcr.io/blokadainfo/streamecho:develop
+    image: ghcr.io/blokadainfo/streamecho:v0.0.1
     environment:
       MUMBLE_ADDRESS: ${STREAMECHO_MUMBLE_ADDRESS} # TODO: Why mumble internal net doesn't work?
       MUMBLE_USERNAME: "@PROGRAM.LIVE"
